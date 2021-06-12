@@ -8,6 +8,16 @@ const routes: Array<RouteRecordRaw> = [
     component: Home,
   },
   {
+    path: '/menu/:municipalityname',
+    name: 'Menu',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Menu.vue'),
+  },
+  {
+    path: '/product',
+    name: 'ProductView',
+    component: () => import(/* webpackChunkName: "about" */ '../views/ProductView.vue'),
+  },
+  {
     path: '/about',
     name: 'About',
     // route level code-splitting

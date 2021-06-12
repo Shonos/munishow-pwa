@@ -8,7 +8,10 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@types/node": "^15.12.1",
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
+    "point-in-polygon": "^1.1.0",
     "register-service-worker": "^1.7.1",
     "vue": "^3.0.0",
     "vue-class-component": "^8.0.0-0",
@@ -16,6 +19,7 @@
     "vuex": "^4.0.0-0"
   },
   "devDependencies": {
+    "@types/point-in-polygon": "^1.0.0",
     "@typescript-eslint/eslint-plugin": "^4.18.0",
     "@typescript-eslint/parser": "^4.18.0",
     "@vue/cli-plugin-babel": "~4.5.0",

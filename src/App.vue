@@ -1,12 +1,56 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div class="region-full">
+    <router-view/>
   </div>
-  <router-view/>
 </template>
 
 <style lang="scss">
+.region-tab {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  margin:0;
+}
+
+.font-12 {
+  font-size:16px;
+}
+
+.font-white {
+  color:white;
+}
+
+.header {
+  margin: 10px;
+}
+
+.region-full {
+  height: 100vh;
+  max-width: 500px;
+  background-color: #978f9a;
+  position: relative;
+}
+
+.region-tab {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.background-default {
+  background-image: url(./assets/background-default.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -27,4 +71,7 @@
     }
   }
 }
+
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 </style>
