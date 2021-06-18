@@ -48,24 +48,24 @@ import { Municipality } from '../models/Municipality';
       const mode = this.$route.query.mode.toLowerCase();
       const municipality = this.$store.getters.getMunicipalityByName(name) as Municipality;
       if (mode === 'localproducts' && municipality?.products) {
-        const currentMunicipality = this.$route.query.municipalityname.toUpperCase();
-        municipality.products.map((p, index) => {
-          const prod = p;
-          const fileSubstr = 'product';
-          prod.productImageUrl = `/img/${currentMunicipality}/${fileSubstr}${index + 1}.png`;
-          return prod;
-        });
+        // const currentMunicipality = this.$route.query.municipalityname.toUpperCase();
+        // municipality.products.map((p, index) => {
+        //   const prod = p;
+        //   const fileSubstr = 'product';
+        //   prod.productImageUrl = `/img/${currentMunicipality}/${fileSubstr}${index + 1}.png`;
+        //   return prod;
+        // });
         return municipality?.products;
       }
 
       if (mode === 'delicacies' && municipality?.delicacies) {
-        const currentMunicipality = this.$route.query.municipalityname.toUpperCase();
-        municipality.delicacies.map((p, index) => {
-          const prod = p;
-          const fileSubstr = 'delicacy';
-          prod.productImageUrl = `/img/${currentMunicipality}/${fileSubstr}${index + 1}.png`;
-          return prod;
-        });
+        // const currentMunicipality = this.$route.query.municipalityname.toUpperCase();
+        // municipality.delicacies.map((p, index) => {
+        //   const prod = p;
+        //   const fileSubstr = 'delicacy';
+        //   prod.productImageUrl = `/img/${currentMunicipality}/${fileSubstr}${index + 1}.png`;
+        //   return prod;
+        // });
         return municipality?.delicacies;
       }
 

@@ -16,6 +16,31 @@ export default createStore({
       axios.get('data/municipalities.json')
         .then((result) => {
           if (result && result.data) {
+            result.data.municipalities.map((m: Municipality) => {
+              const municipalityWithImage = m;
+              if (municipalityWithImage.products) {
+                municipalityWithImage.products.map((d, index) => {
+                  const delicacyWithImage = d;
+                  const delicacyImage = new Image();
+                  const fileSubstr = 'product';
+                  delicacyImage.src = `/img/${municipalityWithImage.name?.toLowerCase()}/${fileSubstr}${index + 1}.png`;
+                  delicacyWithImage.productImageUrl = delicacyImage.src;
+                  return delicacyWithImage;
+                });
+              }
+              if (municipalityWithImage.delicacies) {
+                municipalityWithImage.delicacies.map((d, index) => {
+                  const delicacyWithImage = d;
+                  const delicacyImage = new Image();
+                  const fileSubstr = 'delicacy';
+                  delicacyImage.src = `/img/${municipalityWithImage.name?.toLowerCase()}/${fileSubstr}${index + 1}.png`;
+                  delicacyWithImage.productImageUrl = delicacyImage.src;
+                  return delicacyWithImage;
+                });
+              }
+
+              return municipalityWithImage;
+            });
             com.commit('updateMunicipalitiesOnState', result.data.municipalities);
           }
         })
