@@ -52,7 +52,7 @@ import { Municipality } from '../models/Municipality';
         municipality.products.map((p, index) => {
           const prod = p;
           const fileSubstr = 'product';
-          // prod.productImageUrl = `/img/${currentMunicipality}/${fileSubstr}${index + 1}.png`;
+          prod.productImageUrl = `/img/${currentMunicipality}/${fileSubstr}${index + 1}.png`;
           return prod;
         });
         return municipality?.products;
@@ -63,7 +63,7 @@ import { Municipality } from '../models/Municipality';
         municipality.delicacies.map((p, index) => {
           const prod = p;
           const fileSubstr = 'delicacy';
-          // prod.productImageUrl = `/img/${currentMunicipality}/${fileSubstr}${index + 1}.png`;
+          prod.productImageUrl = `/img/${currentMunicipality}/${fileSubstr}${index + 1}.png`;
           return prod;
         });
         return municipality?.delicacies;
@@ -116,12 +116,7 @@ export default class ProductComponent extends Vue {
 }
 .region-scroll {
   height: 75%;
-  -ms-overflow-style: none; /* for Internet Explorer, Edge */
-  scrollbar-width: none; /* for Firefox */
-  overflow-y: scroll;
-}
-.region-scroll::-webkit-scrollbar {
-  display:none;
+  overflow:scroll;
 }
 .region-menu-logo {
   position: absolute;
