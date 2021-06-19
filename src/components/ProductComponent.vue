@@ -18,10 +18,10 @@
             <div class="card-product-title">
               {{ product.name }}
             </div>
-            <div v-if="!isWhereToBuy()" class="card-product-description">
+            <div v-if="!isWhereToBuy()" class="card-product-description font-glacial">
               {{ product.description }}
             </div>
-            <div v-if="isWhereToBuy()" class="card-product-description">
+            <div v-if="isWhereToBuy()" class="card-product-description font-glacial">
               {{ product.wheretobuy }}
             </div>
           </div>
@@ -108,7 +108,7 @@ import { Municipality } from '../models/Municipality';
       }
     },
     getMapUrl() {
-      const muni = this.$route.query.municipalityname.toLowerCase();
+      const muni = this.$route.query.municipalityname.toLowerCase().replace(' ', '');
       return `/img/maps-highlighted/${muni}.png`;
     },
     isWhereToBuy(): boolean {
@@ -189,7 +189,7 @@ export default class ProductComponent extends Vue {
 }
 
 .card-product-image-container {
-  width: 33%;
+  width: 40%;
   height: 100%;
 }
 
@@ -199,14 +199,14 @@ export default class ProductComponent extends Vue {
 }
 
 .card-product-description-container {
-  width: 66%;
+  width: 60%;
   height: 100%;
   padding: 10px;
 }
 
 .card-product-description {
   font-size: 12px;
-  letter-spacing: 2px;
+  letter-spacing: 0px;
   text-align: justify;
 }
 
@@ -227,10 +227,14 @@ export default class ProductComponent extends Vue {
   box-shadow: 2px 6px #a5210a;
   font-family: 'Bebas Neue', cursive;
   font-size: 35px;
-  letter-spacing: 5px;
   min-height: 75px;
 }
 
+.font-glacial {
+  font-family: 'GlacialIndifferenceRegular';
+  font-weight: bold;
+  font-style: normal;
+}
 .region-title {
   font-family: 'Shrikhand';font-size: 40px;
   color: #ea8643;

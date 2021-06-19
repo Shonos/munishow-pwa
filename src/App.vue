@@ -74,4 +74,5 @@ p {
 
 @import url('https://fonts.googleapis.com/css?family=Shrikhand');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fontlibrary.org//face/glacial-indifference');
 </style>

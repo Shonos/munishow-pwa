@@ -3,7 +3,8 @@
     <img id="choose-municipality-img" v-on:click="municipalityImageClicked"
       src="../assets/choose-municipality.jpg"
       class="municipality-img"/>
-      <p class="version">version 1.2</p>
+      <p class="version">version 1.3</p>
+      <router-link to="/about" class="about-link">?</router-link>
   </div>
 </template>
 
@@ -82,6 +83,13 @@ export default class MunicipalityShowcase extends Vue {
 .municipality-img {
   height: fit-content;
   max-width: 100%;
+}
+
+.about-link {
+  position: absolute;
+  right: 10px;
+  bottom: 15px;
+  font-size: 30px;
 }
 
 .region-tab .version {
