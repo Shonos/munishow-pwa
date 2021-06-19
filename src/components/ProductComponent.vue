@@ -9,8 +9,8 @@
       <div class="region-scroll">
       <div class="region-space-50">
       </div>
-      <template v-for="product in products" v-bind:key="product.name">
-        <div class="card card-product">
+      <template v-for="(product, index) in products" v-bind:key="product.name">
+        <div v-bind:class="index%2 == 1  ? 'card-alt' : 'card'" class="card-product">
           <div class="card-product-image-container">
             <img :src="product.productImageUrl"/>
           </div>

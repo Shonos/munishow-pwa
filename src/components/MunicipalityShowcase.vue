@@ -3,7 +3,7 @@
     <img id="choose-municipality-img" v-on:click="municipalityImageClicked"
       src="../assets/choose-municipality.jpg"
       class="municipality-img"/>
-      <p class="version">version 1.1</p>
+      <p class="version">version 1.2</p>
   </div>
 </template>
 
