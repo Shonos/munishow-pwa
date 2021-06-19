@@ -18,10 +18,10 @@
             <div class="card-product-title">
               {{ product.name }}
             </div>
-            <div :v-if="!isWhereToBuy()" class="card-product-description">
+            <div v-if="!isWhereToBuy()" class="card-product-description">
               {{ product.description }}
             </div>
-            <div :v-if="isWhereToBuy()" class="card-product-description">
+            <div v-if="isWhereToBuy()" class="card-product-description">
               {{ product.wheretobuy }}
             </div>
           </div>
