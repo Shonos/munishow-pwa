@@ -23,25 +23,30 @@
             "products": [
                 {
                     "name": "Virgin Coconut Oil and Virgin Coconut Cooking Oil",
-                    "description": "Virgin Coconut Oil (VCO) is produced by cold-pressing the liquid from the coconut meat, later extracting the oil from the milk and water, resulting in its milky appearance. VCO is beneficial for weight loss because the oil consists primarily of medium-chain fatty acids which are not only good for you, but essential for brain function, muscle function, healing, energy, and more"
+                    "description": "Virgin Coconut Oil (VCO) is produced by cold-pressing the liquid from the coconut meat, later extracting the oil from the milk and water, resulting in its milky appearance. VCO is beneficial for weight loss because the oil consists primarily of medium-chain fatty acids which are not only good for you, but essential for brain function, muscle function, healing, energy, and more",
+                    "wheretobuy": "SAMAKA ALTAVAS (Samahan ng Masigasig na mga Kabarangayan ng Altavas) - Lupo, Altavas, Aklan - Arnulfo Abucay - 09103491952" 
                 },
                 {
                     "name": "Wood Furniture",
-                    "description": "Wood furniture means room furnishings, including cabinets (kitchen, bath and vanity), tables, chairs, beds, sofas, shutters, art objects, wood paneling other than flat wood paneling, wood flooring and any other coated furnishings made of wood, wood composition or fabricated wood materials"
+                    "description": "Wood furniture means room furnishings, including cabinets (kitchen, bath and vanity), tables, chairs, beds, sofas, shutters, art objects, wood paneling other than flat wood paneling, wood flooring and any other coated furnishings made of wood, wood composition or fabricated wood materials",
+                    "wheretobuy": "Toto Wood Craft - Lupo, Altavas, Aklan - Eddie G. Andres - 09308686567"
                 },
                 {
                     "name": "Virgin Human Hair Wig",
-                    "description": "A virgin human hair wig is a wig whose hair has not been permeated, colored treated, dyed, bleached, blow-dried, steam treated or gone through any other chemical processing. A virgin human hair wig is completely in its original state and comes from one single person"
+                    "description": "A virgin human hair wig is a wig whose hair has not been permeated, colored treated, dyed, bleached, blow-dried, steam treated or gone through any other chemical processing. A virgin human hair wig is completely in its original state and comes from one single person",
+                    "wheretobuy": "Hair and Thread Producers Cooperative - Linayasan, Altavas, Aklan - Ruben Nepomuceno - 09306065689"
                 }
             ],
             "delicacies": [
                 {
                     "name": "Kakanin",
-                    "description": "Kakanin is the umbrella name for glutinous rice cakes. Its core ingredients are Malagkit (sticky rice) and Gata (coconut milk)"
+                    "description": "Kakanin is the umbrella name for glutinous rice cakes. Its core ingredients are Malagkit (sticky rice) and Gata (coconut milk)",
+                    "wheretobuy": "Bing’s Kakanin - Poblacion, Altavas, Aklan - Gina V. Cañete - 09956138247"
                 },
                 {
                     "name": "Cassava Cake",
-                    "description": "Cassava Cake is a classic Filipino dessert made from grated cassava. Coconut meat is sometimes incorporated into the cake mixture for added texture, and the finished product is then coated with margarine and garnished with grated cheese."
+                    "description": "Cassava Cake is a classic Filipino dessert made from grated cassava. Coconut meat is sometimes incorporated into the cake mixture for added texture, and the finished product is then coated with margarine and garnished with grated cheese.",
+                    "wheretobuy": "Alkaminera Cassava Cake - Man-up, Altavas, Aklan - Novie H. Luna - 09084876255"
                 }
             ]
         },
@@ -68,25 +73,30 @@
             "products": [
                 {
                     "name": "Nito Products",
-                    "description": "Table decorations such as food trays, tissue holders and placemats, coasters, hats, bags, containers, coin purses, wooden flower vases, and many other forms are created and formed from nito vines and strands by nito weavers. "
+                    "description": "Table decorations such as food trays, tissue holders and placemats, coasters, hats, bags, containers, coin purses, wooden flower vases, and many other forms are created and formed from nito vines and strands by nito weavers. ",
+                    "wheretobuy": "Dandoy Nito Products - Morales, Balete, Aklan - Elsie Dandoy - 09512945765, PWD Balete Association - Poblacion, Balete, Aklan - Emer R. Dalida - 09202469355"
                 },
                 {
                     "name": "Pina Cloth",
-                    "description": "Pina cloth is one of the most significant inheritance left by the Spaniards in the country. It is very soft, durable and is the primary material in creating barong tagalogs and saya which are considered “National Costumes” of the Filipino culture"
+                    "description": "Pina cloth is one of the most significant inheritance left by the Spaniards in the country. It is very soft, durable and is the primary material in creating barong tagalogs and saya which are considered “National Costumes” of the Filipino culture",
+                    "wheretobuy": "Raquel Pina Cloth Products - Fulgencio, Balete, Aklan - Raquel Eliserio - 09284499299"
                 },
                 {
                     "name": "Coco Products",
-                    "description": "Coco products are coconut-based products useful for ornamental horticulture, landscape, garden designs, and planting essentials."
+                    "description": "Coco products are coconut-based products useful for ornamental horticulture, landscape, garden designs, and planting essentials.",
+                    "wheretobuy": "ADC Farm - Poblacion, Balete, Aklan - Aries D. Cuales - 09081849495"
                 }
             ],
             "delicacies": [
                 {
                     "name": "Pinipig",
-                    "description": "Pinipig are immature rice grains that are pounded until they are flat and then are toasted. You can eat it plain, though it is more frequently used as a topping for various sweets, cakes, and even drinks."
+                    "description": "Pinipig are immature rice grains that are pounded until they are flat and then are toasted. You can eat it plain, though it is more frequently used as a topping for various sweets, cakes, and even drinks.",
+                    "wheretobuy": ""
                 },
                 {
                     "name": "Banana and Taro Chips ",
-                    "description": "Banana and taro chips are made from thinly sliced raw bananas and taro, deep - fried using a method passed down from ancient times that makes it sweet with their signature texture due to the special caramelised coating of the chips."
+                    "description": "Banana and taro chips are made from thinly sliced raw bananas and taro, deep - fried using a method passed down from ancient times that makes it sweet with their signature texture due to the special caramelised coating of the chips.",
+                    "wheretobuy": "Cuadernal’s Delicacies - Calizo, Balete, Aklan - Elene Cuadernal - 09255468436"
                 }
             ]
         },
@@ -116,19 +126,23 @@
             "delicacies": [
                 {
                     "name": "Banana and Taro Chips",
-                    "description": "Banana and taro chips are made from thinly sliced raw bananas and taro, deep - fried using a method passed down from ancient times that makes it sweet with their signature texture due to the special caramelised coating of the chips."
+                    "description": "Banana and taro chips are made from thinly sliced raw bananas and taro, deep - fried using a method passed down from ancient times that makes it sweet with their signature texture due to the special caramelised coating of the chips.",
+                    "wheretobuy": "Cruzdela Delicacies - Venturanza, Banga, Aklan - Chenisse April D. Dela Cruz - 09460696970/chendjpril@gmail.com"
                 },
                 {
                     "name": "Barquiron",
-                    "description": "Barquiron are barquillos filled with polvoron. Barquiron is often individually wrapped in colorful cellophane."
+                    "description": "Barquiron are barquillos filled with polvoron. Barquiron is often individually wrapped in colorful cellophane.",
+                    "wheretobuy": "Rosel Delicacies - Badiangan, Banga, Aklan - Ledwino Roselo - 09064648517"
                 },
                 {
                     "name": "Piyaya",
-                    "description": "Piyaya is a type of unleavened toasted flatbread filled with muscovado. It usually comes in plain and ube flavors."
+                    "description": "Piyaya is a type of unleavened toasted flatbread filled with muscovado. It usually comes in plain and ube flavors.",
+                    "wheretobuy": ""
                 },
                 {
                     "name": "Turones de Mani",
-                    "description": "Turones de mani is a dessert of crushed peanuts wrapped in an egg crepe wrapper. It is also referred to as turon de mani, peanut turon, or peanut lumpia."
+                    "description": "Turones de mani is a dessert of crushed peanuts wrapped in an egg crepe wrapper. It is also referred to as turon de mani, peanut turon, or peanut lumpia.",
+                    "wheretobuy": "Rosel Delicacies - Badiangan, Banga, Aklan - Ledwino Roselo - 09064648517"
                 }
             ]
         },
@@ -158,11 +172,13 @@
             "delicacies": [
                 {
                     "name": "Bibingka Cake",
-                    "description": "Batan serves this unique puto, or steamed rice cake, in a variety of flavors, including cheese and buko. It is around 6-8 inches in diameter and is large enough to fill the bellies of a small group of people, making it a terrific snack choice."
+                    "description": "Batan serves this unique puto, or steamed rice cake, in a variety of flavors, including cheese and buko. It is around 6-8 inches in diameter and is large enough to fill the bellies of a small group of people, making it a terrific snack choice.",
+                    "wheretobuy": "Linda’s Royal Bibingka Buko Cake - Mandong, Batan, Aklan - Marilou A. Almanon - 09474749515"
                 },
                 {
                     "name": "Kakanin",
-                    "description": "Kakanin is the umbrella name for glutinous rice cakes. Its core ingredients are Malagkit (sticky rice) and Gata (coconut milk)"
+                    "description": "Kakanin is the umbrella name for glutinous rice cakes. Its core ingredients are Malagkit (sticky rice) and Gata (coconut milk)",
+                    "wheretobuy": "Anne’s Delicacies - Mandong, Batan, Aklan - Anne B. Cariño - 09077327353, J.A. & Dall’s Kitchenette - Ambolong, Batan, Aklan - Michelle Jade Parohinog Opanto - 09499109398, Numerous other shops in Batan also offer a wide variety of kakanin pastries."
                 }
             ]
         },
@@ -189,7 +205,8 @@
             "products": [
                 {
                     "name": "Nito Products",
-                    "description": "Table decorations such as food trays, tissue holders and placemats, coasters, hats, bags, containers, coin purses, wooden flower vases, and many other forms are created and formed from nito vines and strands by nito weavers"
+                    "description": "Table decorations such as food trays, tissue holders and placemats, coasters, hats, bags, containers, coin purses, wooden flower vases, and many other forms are created and formed from nito vines and strands by nito weavers",
+                    "wheretobuy": "Franz Handicrafts - Habana, Buruanga, Aklan - Francia C. Escote - 09108324876, Olanga Handicrafts Trading - Habana, Buruanga, Aklan - Marybeth P. Olanga - 09981808237"
                 }
             ],
             "delicacies": [
@@ -219,13 +236,15 @@
             "products": [
                 {
                     "name": "Nito Products",
-                    "description": "Table decorations such as food trays, tissue holders and placemats, coasters, hats, bags, containers, coin purses, wooden flower vases, and many other forms are created and formed from nito vines and strands by nito weavers"
+                    "description": "Table decorations such as food trays, tissue holders and placemats, coasters, hats, bags, containers, coin purses, wooden flower vases, and many other forms are created and formed from nito vines and strands by nito weavers",
+                    "wheretobuy": "Aparicio Agrarian Reform Cooperative - Aparicio, Ibajay, Aklan - Marilene Pines - 09074276050"
                 }
             ],
             "delicacies": [
                 {
                     "name": "Polvoron",
-                    "description": "It is a Filipino-style shortbread made of toasted flour, powdered milk, sugar, and butter. Polvoron, along with other native delicacies of the municipality, are becoming popular gifts or “pasalubong” to those abroad"
+                    "description": "It is a Filipino-style shortbread made of toasted flour, powdered milk, sugar, and butter. Polvoron, along with other native delicacies of the municipality, are becoming popular gifts or “pasalubong” to those abroad",
+                    "wheretobuy": "Dalisay Delicacies - Maloco, Ibajay, Aklan - Jasmen Dalisay - 09513246107"
                 }
             ]
         },
@@ -252,11 +271,13 @@
             "products": [
                 {
                     "name": "Pina Cloth",
-                    "description": "Pina cloth is one of the most significant inheritance left by the Spaniards in the country. It is very soft, durable and is the primary material in creating barong tagalogs and saya which are considered “National Costumes” of the Filipino culture."
+                    "description": "Pina cloth is one of the most significant inheritance left by the Spaniards in the country. It is very soft, durable and is the primary material in creating barong tagalogs and saya which are considered “National Costumes” of the Filipino culture.",
+                    "wheretobuy": "La Herminia Piña Weaving Industry - Old Buswang, Kalibo, Aklan - Allan Tumbokon - 09173256238, Reycon’s Pina Cloth & Industry - Andagaw, Kalibo, Aklan - Ann Jairose Reyes Marte - 262-3905, Pina cloth can be found in numerous shops located in Old Buswang, Andagaw, Tigayon, and Bakhaw Norte."
                 },
                 {
                     "name": "Buri Bayong ",
-                    "description": "Bayong refers to bags which are made by weaving dried leaves. The leaves used for making the bayong vary but the traditional bayong is made from buri leaves in the Visayas and pandan leaves in Luzon."
+                    "description": "Bayong refers to bags which are made by weaving dried leaves. The leaves used for making the bayong vary but the traditional bayong is made from buri leaves in the Visayas and pandan leaves in Luzon.",
+                    "wheretobuy": "Tamayo’s Handicrafts - Pook, Kalibo, Aklan - Carmela Tamayo - 09285444280"
                 }
             ],
             "delicacies": [
@@ -286,13 +307,15 @@
             "products": [
                 {
                     "name": "Clay products",
-                    "description": "The town of Lezo is famous for its pottery and clay products where a kiln is used to harden the pots that are molded into jars and vases, then decorated with different designs."
+                    "description": "The town of Lezo is famous for its pottery and clay products where a kiln is used to harden the pots that are molded into jars and vases, then decorated with different designs.",
+                    "wheretobuy": "Morgado’s Pottery - Poblacion, Lezo, Aklan - Aigie May A. Morgado -09955172910, Ola’s Pottery - Poblacion, Lezo, Aklan - Juliet A. Ola, Other pottery shops can also be seen on the streets of Lezo, Aklan specifically near their municipal Church"
                 }
             ],
             "delicacies": [
                 {
                     "name": "Ampaw",
-                    "description": "It is the distinctive quality of Lezonian pop rice that makes it a locally and even internationally known delicacy. Ampaw is normally wrapped in dried banana leaves and paper to keep its freshness and crispiness."
+                    "description": "It is the distinctive quality of Lezonian pop rice that makes it a locally and even internationally known delicacy. Ampaw is normally wrapped in dried banana leaves and paper to keep its freshness and crispiness.",
+                    "wheretobuy": "Molas’ Foods - Poblacion, Lezo, Aklan - Lyn G. Molas - 09207288768"
                 }
             ]
         },
@@ -319,17 +342,20 @@
             "products": [
                 {
                     "name": "Tayok-Tayok",
-                    "description": "It is a thin, slender piece of straw or reed that grows plentifully in wetlands and marshes of Libacao, Aklan. Its pliable stalk is much used for binding purposes and for hat-making, basket-making, etc."
+                    "description": "It is a thin, slender piece of straw or reed that grows plentifully in wetlands and marshes of Libacao, Aklan. Its pliable stalk is much used for binding purposes and for hat-making, basket-making, etc.",
+                    "wheretobuy": "Vil’s Handicrafts - Ogsip, Libacao, Aklan - Vilma Villorente"
                 },
                 {
                     "name": "Nito Products",
-                    "description": "Table decorations such as food trays, tissue holders and placemats, coasters, hats, bags, containers, coin purses, wooden flower vases, and many other forms are created and formed from nito vines and strands by nito weavers."
+                    "description": "Table decorations such as food trays, tissue holders and placemats, coasters, hats, bags, containers, coin purses, wooden flower vases, and many other forms are created and formed from nito vines and strands by nito weavers.",
+                    "wheretobuy": "Vil’s Handicrafts - Ogsip, Libacao, Aklan - Vilma Villorente, Ilig Handicraft - Ogsip, Libacao, Aklan"
                 }
             ],
             "delicacies": [
                 {
                     "name": "Tablea",
-                    "description": "Tablea is defined as roasted, ground and molded nibs of fermented 100% pure cacao beans without added ingredients and additives. It is usually heated and combined with water to make a traditional Filipino chocolate drink called sikwate."
+                    "description": "Tablea is defined as roasted, ground and molded nibs of fermented 100% pure cacao beans without added ingredients and additives. It is usually heated and combined with water to make a traditional Filipino chocolate drink called sikwate.",
+                    "wheretobuy": "Madjaas Farm - Poblacion, Libacao, Aklan- Roselle Nagrama"
                 }
             ]
         },
@@ -356,7 +382,8 @@
             "products": [
                 {
                     "name": "Nito Products",
-                    "description": "Table decorations such as food trays, tissue holders and placemats, coasters, hats, bags, containers, coin purses, wooden flower vases, and many other forms are created and formed from nito vines and strands by nito weavers."
+                    "description": "Table decorations such as food trays, tissue holders and placemats, coasters, hats, bags, containers, coin purses, wooden flower vases, and many other forms are created and formed from nito vines and strands by nito weavers.",
+                    "wheretobuy": "Rural Improvement Club and Association - Medina, Madalag, Aklan - Rhea N. Katimpo - 09151308494"
                 }
             ],
             "delicacies": [
@@ -386,17 +413,20 @@
             "products": [
                 {
                     "name": "Wood Furniture",
-                    "description": "Wood furniture means room furnishings, including cabinets (kitchen, bath and vanity), tables, chairs, beds, sofas, shutters, art objects, wood paneling other than flat wood paneling, wood flooring and any other coated furnishings made of wood, wood composition or fabricated wood materials."
+                    "description": "Wood furniture means room furnishings, including cabinets (kitchen, bath and vanity), tables, chairs, beds, sofas, shutters, art objects, wood paneling other than flat wood paneling, wood flooring and any other coated furnishings made of wood, wood composition or fabricated wood materials.",
+                    "wheretobuy": "Bheng and Rene Furniture - Brgy. Castillo, Makato, Aklan - Gerosel Masula - 09196295505"
                 }
             ],
             "delicacies": [
                 {
                     "name": "Cream Tart",
-                    "description": "A decorated cream tart is made up of a butter cookie base and is typically piped with buttercream. The pastry is usually shortcrust pastry; the filling may be sweet or savoury, though modern tarts are usually fruit-based, sometimes with custard."
+                    "description": "A decorated cream tart is made up of a butter cookie base and is typically piped with buttercream. The pastry is usually shortcrust pastry; the filling may be sweet or savoury, though modern tarts are usually fruit-based, sometimes with custard.",
+                    "wheretobuy": "Maedhelyn’s Cream Tart and Polvoron - Brgy. Calimbajan, Makato, Aklan - Melrose Lagasca - 09507967808"
                 },
                 {
                     "name": "Polvoron",
-                    "description": "It is a Filipino-style shortbread made of toasted flour, powdered milk, sugar, and butter. Sweet, buttery, and easy to customize with different flavors, it’s a delicious snack or dessert and great for gift giving."
+                    "description": "It is a Filipino-style shortbread made of toasted flour, powdered milk, sugar, and butter. Sweet, buttery, and easy to customize with different flavors, it’s a delicious snack or dessert and great for gift giving.",
+                    "wheretobuy": "Maedhelyn’s Cream Tart and Polvoron - Brgy. Calimbajan, Makato, Aklan - Melrose Lagasca - 09507967808"
                 }
             ]
         },
@@ -426,19 +456,23 @@
             "delicacies": [
                 {
                     "name": "Indian Mango Candy",
-                    "description": "These candies are made from native mangoes found in Boracay, Malay, Aklan which are rich in fiber and fructose. They are exotic in flavor and a favorite among locals and tourists."
+                    "description": "These candies are made from native mangoes found in Boracay, Malay, Aklan which are rich in fiber and fructose. They are exotic in flavor and a favorite among locals and tourists.",
+                    "wheretobuy": "Pinay Boracay - Manoc-Manoc, Malay, Aklan - Marlyn Dalipe"
                 },
                 {
                     "name": "Gwapamela Tea",
-                    "description": "This slimming tea is made from 100% pure hibiscus flower petals grown and harvested from the tropical soil of Malay, Aklan. They say that when you drink this tea regularly, it will beautify you."
+                    "description": "This slimming tea is made from 100% pure hibiscus flower petals grown and harvested from the tropical soil of Malay, Aklan. They say that when you drink this tea regularly, it will beautify you.",
+                    "wheretobuy": "Pinay Boracay - Manoc-Manoc, Malay, Aklan - Marlyn Dalipe"
                 },
                 {
                     "name": "Coconut Sugar",
-                    "description": "Malay is considered to be the supplier of coconuts for the province. Coconut sugar is a natural sugar made from coconut palm sap, which is the sugary circulating fluid of the coconut plant."
+                    "description": "Malay is considered to be the supplier of coconuts for the province. Coconut sugar is a natural sugar made from coconut palm sap, which is the sugary circulating fluid of the coconut plant.",
+                    "wheretobuy": "Pinay Boracay - Manoc-Manoc, Malay, Aklan - Marlyn Dalipe"
                 },
                 {
                     "name": "Sara sara coffee",
-                    "description": "A ground roasted rice which is brewed, and served as coffee. The husked rice is roasted until burned and black then ground into powder. The powder is then brewed and the liquid is strained and served as a hot beverage, like coffee."
+                    "description": "A ground roasted rice which is brewed, and served as coffee. The husked rice is roasted until burned and black then ground into powder. The powder is then brewed and the liquid is strained and served as a hot beverage, like coffee.",
+                    "wheretobuy": "Pinay Boracay - Manoc-Manoc, Malay, Aklan - Marlyn Dalipe"
                 }
             ]
         },
@@ -465,17 +499,20 @@
             "products": [
                 {
                     "name": "Abaca Products",
-                    "description": "The municipality of Malinao is popular for the creation of handmade products from Abaca like Abaca slippers, wallets, bags, other accessories, and also home items such as placemats, table runners, and coasters. "
+                    "description": "The municipality of Malinao is popular for the creation of handmade products from Abaca like Abaca slippers, wallets, bags, other accessories, and also home items such as placemats, table runners, and coasters.",
+                    "wheretobuy": "San Ramon Abaca Handicraft Association - San Ramon, Malinao, Aklan - Villaflor V. Javier - 0939939637, San Ramon Developmental Association - San Ramon, Malinao, Aklan - Soledad Yetyet - 09922639987"
                 },
                 {
                     "name": "Bamboo Crafts",
-                    "description": "They are known for producing products made from bamboo and one example is the winnowing basket or locally named “Nigo.” These baskets are mainly used by farmers since the old times for drying rice grains in the sun and wind, and sifting and separating the grain from the dried craft."
+                    "description": "They are known for producing products made from bamboo and one example is the winnowing basket or locally named “Nigo.” These baskets are mainly used by farmers since the old times for drying rice grains in the sun and wind, and sifting and separating the grain from the dried craft.",
+                    "wheretobuy": "Dangcalan, Malinao, Aklan - 09518617625"
                 }
             ],
             "delicacies": [
                 {
                     "name": "Crispy Mushroom",
-                    "description": "It is cooked the same way with chicharon which is considered one of the favourite snacks of Filipinos that is largely influenced by the Spaniards. Fried mushrooms are a dish made by the frying or deep frying of edible mushrooms, sometimes after dipping them in batter."
+                    "description": "It is cooked the same way with chicharon which is considered one of the favourite snacks of Filipinos that is largely influenced by the Spaniards. Fried mushrooms are a dish made by the frying or deep frying of edible mushrooms, sometimes after dipping them in batter.",
+                    "wheretobuy": "VIR Farm Products Manufacturing - Lilo-an, Malinao, Aklan - Jerry Y. Ituriaga"
                 }
             ]
         },
@@ -502,7 +539,8 @@
             "products": [
                 {
                     "name": "Bariw Handicrafts",
-                    "description": "Nabas is popular in the whole province of Aklan because of their weaving services that produce colorful bags, hats, mats, and purses that are all made from Bariw leaves."
+                    "description": "Nabas is popular in the whole province of Aklan because of their weaving services that produce colorful bags, hats, mats, and purses that are all made from Bariw leaves.",
+                    "wheretobuy": "Marbe’s Handicrafts - Buenavista, Nabas, Aklan - Marbelyn C. Narzo - 09998037132, Sikap Kabataan Local Products Manufacturing - Laserna, Nabas, Aklan - Marvin Jhon M. Casidsid"
                 }
             ],
             "delicacies": [
@@ -535,11 +573,13 @@
             "delicacies": [
                 {
                     "name": "Seafood",
-                    "description": "The municipality of New Washington is not renowned for the local products they produce but instead, they produce delicacies that demonstrate their title of being the Seafood Capital of Aklan by processing seafood delicacies like crispy shrimps. Other examples of the seafoods that they produce are crabs, prawns, sea shell, and exotic foods like “tamiluk” (a wood worm that feed on dead mangrove trees), and \"sasing\" (a marine worm dug from the intertidal zone of the Lagatik river)."
+                    "description": "The municipality of New Washington is not renowned for the local products they produce but instead, they produce delicacies that demonstrate their title of being the Seafood Capital of Aklan by processing seafood delicacies like crispy shrimps. Other examples of the seafoods that they produce are crabs, prawns, sea shell, and exotic foods like “tamiluk” (a wood worm that feed on dead mangrove trees), and \"sasing\" (a marine worm dug from the intertidal zone of the Lagatik river).",
+                    "wheretobuy": "Nikko Food Products - Fatima, New Washington, Aklan - Ruzvil Tila-on"
                 },
                 {
                     "name": "Crispy Shrimp",
-                    "description": "Crispy shrimp is made with whole unshelled shrimps - thoroughly cleaned and then mixed in the flour, salt, pepper and other seasoning mixture. It is then finally deep fried to give it a perfect crunch in every bite."
+                    "description": "Crispy shrimp is made with whole unshelled shrimps - thoroughly cleaned and then mixed in the flour, salt, pepper and other seasoning mixture. It is then finally deep fried to give it a perfect crunch in every bite.",
+                    "wheretobuy": "John and Nelfa Spicy Crispy Shrimp - Poblacion, New Washington, Aklan - John Repedro - 09998037132"
                 }
             ]
         },
@@ -569,7 +609,8 @@
             "delicacies": [
                 {
                     "name": "Lechon",
-                    "description": "The Municipality of Numancia is not known for their local products but instead, Numancia is dubbed as the home of the most mouthwatering and best tasting lechon in the whole province. There are various stores in Barangay Bulwang, Numancia that produce the best liempo that became famous to both locals, adjacent cities and provinces, and to those that came from different countries."
+                    "description": "The Municipality of Numancia is not known for their local products but instead, Numancia is dubbed as the home of the most mouthwatering and best tasting lechon in the whole province. There are various stores in Barangay Bulwang, Numancia that produce the best liempo that became famous to both locals, adjacent cities and provinces, and to those that came from different countries.",
+                    "wheretobuy": "Ramboy’s Lechonan & Restaurant - Laguinbanua, Numancia] - Many other lechonans can be found in Bulwang, Numancia, Aklan"
                 }
             ]
         },
@@ -599,11 +640,13 @@
             "delicacies": [
                 {
                     "name": "Sweet and Spicy Dilis",
-                    "description": "The Municipality of Tangalan does not focus on producing local products but instead they are bountiful in various seafood products and with this, delicacies like sweet and spicy dilis were made possible to produce."
+                    "description": "The Municipality of Tangalan does not focus on producing local products but instead they are bountiful in various seafood products and with this, delicacies like sweet and spicy dilis were made possible to produce.",
+                    "wheretobuy": "Gellin’s Dried Fish - Tangalan, Aklan - Gelin Dumaran"
                 },
                 {
                     "name": "Banana and Taro Chips",
-                    "description": "Banana and taro chips are made from thinly sliced raw bananas and taro, deep - fried using a method passed down from ancient times that makes it sweet with their signature texture due to the special caramelised coating of the chips."
+                    "description": "Banana and taro chips are made from thinly sliced raw bananas and taro, deep - fried using a method passed down from ancient times that makes it sweet with their signature texture due to the special caramelised coating of the chips.",
+                    "wheretobuy": "Tagas MPC - Tangalan, Aklan - Renon Antaran - 09219249285"
                 }
             ]
         }

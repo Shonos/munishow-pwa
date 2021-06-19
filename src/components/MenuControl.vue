@@ -59,8 +59,13 @@ import { Municipality } from '../models/Municipality';
       const mode = 'delicacies';
       this.$router.push({ path: '/product', query: { municipalityname: currMunicipality, mode } });
     },
+    whereToBuyClicked() {
+      const currMunicipality = this.$route.params.municipalityname.toLowerCase();
+      const mode = 'wheretobuy';
+      this.$router.push({ path: '/product', query: { municipalityname: currMunicipality, mode } });
+    },
     getMapUrl() {
-      const muni = this.$route.params.municipalityname.toLowerCase();
+      const muni = this.$route.params.municipalityname.toLowerCase().replace(' ', '');
       return `/img/maps-highlighted/${muni}.png`;
     },
   },

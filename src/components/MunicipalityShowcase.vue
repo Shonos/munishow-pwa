@@ -20,7 +20,10 @@ import { Municipality } from '../models/Municipality';
   },
   methods: {
     init() {
-      this.$store.dispatch('getMunicipalitiesFromFile');
+      const municipalities = this.$store.getters.getMunicipalities as Array<Municipality>;
+      if (municipalities.length === 0) {
+        this.$store.dispatch('getMunicipalitiesFromFile');
+      }
     },
     municipalityImageClicked(event: EventCoords) {
       const imgElement = document.getElementById('choose-municipality-img');

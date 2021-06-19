@@ -18,8 +18,11 @@
             <div class="card-product-title">
               {{ product.name }}
             </div>
-            <div class="card-product-description">
+            <div :v-if="!isWhereToBuy()" class="card-product-description">
               {{ product.description }}
+            </div>
+            <div :v-if="isWhereToBuy()" class="card-product-description">
+              {{ product.wheretobuy }}
             </div>
           </div>
         </div>
@@ -69,7 +72,16 @@ import { Municipality } from '../models/Municipality';
         return municipality?.delicacies;
       }
 
-      return undefined;
+      let products = [] as Product[];
+      if (municipality?.products) {
+        products = products.concat(municipality?.products);
+      }
+
+      if (municipality?.delicacies) {
+        products = products.concat(municipality?.delicacies);
+      }
+
+      return products;
     },
     currentMode(): string {
       return this.$route.query.mode;
@@ -79,23 +91,32 @@ import { Municipality } from '../models/Municipality';
       if (queryParamMode === 'localproducts') {
         return 'Local Products';
       }
-      return 'Delicacies';
+      if (queryParamMode === 'delicacies') {
+        return 'Delicacies';
+      }
+      return 'Where to buy';
     },
     municipalities(): Array<Municipality> {
       return this.$store.getters['default/getMunicipalities'];
     },
   },
   methods: {
-    async init() {
-      await this.$store.dispatch('getMunicipalitiesFromFile');
+    init() {
+      const municipalities = this.$store.getters.getMunicipalities as Array<Municipality>;
+      if (municipalities.length === 0) {
+        this.$store.dispatch('getMunicipalitiesFromFile');
+      }
     },
     getMapUrl() {
       const muni = this.$route.query.municipalityname.toLowerCase();
       return `/img/maps-highlighted/${muni}.png`;
     },
+    isWhereToBuy(): boolean {
+      return this.$route.query.mode === 'wheretobuy';
+    },
   },
-  async created() {
-    await this.init();
+  created() {
+    this.init();
   },
 })
 export default class ProductComponent extends Vue {
@@ -105,6 +126,10 @@ export default class ProductComponent extends Vue {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+.card-product-title {
+  font-size: 20px;
+}
+
 .region-menu {
   width: 100%;
   max-width: 400px;

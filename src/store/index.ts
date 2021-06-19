@@ -4,7 +4,7 @@ import { Municipality } from '../models/Municipality';
 
 export default createStore({
   state: {
-    municipalities: {},
+    municipalities: [],
   },
   mutations: {
     updateMunicipalitiesOnState(state: any, newMunicipalities: any) {
@@ -23,7 +23,7 @@ export default createStore({
                   const delicacyWithImage = d;
                   const delicacyImage = new Image();
                   const fileSubstr = 'product';
-                  delicacyImage.src = `/img/${municipalityWithImage.name?.toLowerCase()}/${fileSubstr}${index + 1}.png`;
+                  delicacyImage.src = `/img/${municipalityWithImage.name?.toLowerCase().replace(' ', '')}/${fileSubstr}${index + 1}.png`;
                   delicacyWithImage.productImageUrl = delicacyImage.src;
                   return delicacyWithImage;
                 });
@@ -33,12 +33,11 @@ export default createStore({
                   const delicacyWithImage = d;
                   const delicacyImage = new Image();
                   const fileSubstr = 'delicacy';
-                  delicacyImage.src = `/img/${municipalityWithImage.name?.toLowerCase()}/${fileSubstr}${index + 1}.png`;
+                  delicacyImage.src = `/img/${municipalityWithImage.name?.toLowerCase().replace(' ', '')}/${fileSubstr}${index + 1}.png`;
                   delicacyWithImage.productImageUrl = delicacyImage.src;
                   return delicacyWithImage;
                 });
               }
-
               return municipalityWithImage;
             });
             com.commit('updateMunicipalitiesOnState', result.data.municipalities);
