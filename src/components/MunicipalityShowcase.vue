@@ -3,7 +3,7 @@
     <img id="choose-municipality-img" v-on:click="municipalityImageClicked"
       src="../assets/choose-municipality.jpg"
       class="municipality-img"/>
-      <p class="version">version 1.4</p>
+      <p class="version">version 1.5</p>
       <router-link to="/about" class="about-link"><img style="width: 25px" src="../assets/question-mark.png"/></router-link>
   </div>
 </template>

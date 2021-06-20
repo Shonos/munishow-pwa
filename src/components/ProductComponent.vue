@@ -142,7 +142,14 @@ export default class ProductComponent extends Vue {
 .region-scroll {
   height: 75%;
   overflow:scroll;
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
 }
+
+.region-scroll::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+
 .region-menu-logo {
   position: absolute;
   bottom: 5px;
