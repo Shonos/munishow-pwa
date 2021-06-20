@@ -30,7 +30,7 @@
           </div>
         </div>
         <div class="region-space-15"></div>
-        <div class="card">
+        <div class="card-alt">
           <div class="card-about-container">
             <p>
               The name of the application entails that the products that are made by local business owners of Aklan should be considered as blessings of the provice

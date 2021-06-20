@@ -3,8 +3,8 @@
     <img id="choose-municipality-img" v-on:click="municipalityImageClicked"
       src="../assets/choose-municipality.jpg"
       class="municipality-img"/>
-      <p class="version">version 1.3</p>
-      <router-link to="/about" class="about-link">?</router-link>
+      <p class="version">version 1.4</p>
+      <router-link to="/about" class="about-link"><img style="width: 25px" src="../assets/question-mark.png"/></router-link>
   </div>
 </template>
 
@@ -87,8 +87,8 @@ export default class MunicipalityShowcase extends Vue {
 
 .about-link {
   position: absolute;
-  right: 10px;
-  bottom: 15px;
+  right: 5px;
+  bottom: 5px;
   font-size: 30px;
 }
 
