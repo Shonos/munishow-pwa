@@ -96,6 +96,5 @@ export default class MunicipalityShowcase extends Vue {
   position: absolute;
   left: 10px;
   bottom: 10px;
-
 }
 </style>

@@ -1,9 +1,11 @@
 <template>
   <div class="region-tab background-default">
     <div class="region-menu">
+      <div class="region-space-15"></div>
       <div class="region-logo">
-        <img style="width: 150px" src="../assets/logo.png" />
+        <img style="width: 300px" src="../assets/logo3.png" />
       </div>
+      <div class="region-space-15"></div>
       <div class="region-scroll">
         <div class="card">
           <div class="card-about-container">

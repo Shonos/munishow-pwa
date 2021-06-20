@@ -179,7 +179,6 @@ export default class ProductComponent extends Vue {
   box-shadow: 2px 6px #edbf09;
   font-family: 'Bebas Neue', cursive;
   font-size: 35px;
-  letter-spacing: 5px;
   min-height: 75px;
 }
 
@@ -238,5 +237,9 @@ export default class ProductComponent extends Vue {
 .region-title {
   font-family: 'Shrikhand';font-size: 40px;
   color: #ea8643;
+}
+
+.font-color-white {
+  color: white;
 }
 </style>
